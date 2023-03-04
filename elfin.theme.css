@@ -1,0 +1,133 @@
+/**
+ * @name ElfinTheme
+ * @author RRyanDEV
+ * @description A theme that's nice on your eyes.. turn the lights off baby!
+ * @version 1.0.0
+ * @source:
+ */
+
+@import url(https://dablulite.github.io/macos-titlebar-buttons/import.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/ChatBubbles.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
+
+
+:root {}
+
+/* Floating User Panel */
+.panels-3wFtMD {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border: 1px solid var(--background-modifier-accent);
+    border-radius: 20px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
+}
+
+.theme-dark .container-YkUktl,
+.container-1zzFcN,
+.theme-dark .panel-2ZFCRb {
+    background-color: transparent !important;
+}
+
+.panels-3wFtMD .container-YkUktl .flex-2S1XBF {
+    margin-left: -10px;
+}
+
+/* Users Server List */
+.container-2o3qEW,
+.tabBody-2dgbAs {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border: 1px solid var(--background-modifier-accent);
+    border-radius: 20px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
+}
+
+/* Chat */
+.chatContent-3KubbW {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border: 1px solid var(--background-modifier-accent);
+    border-radius: 20px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
+}
+
+/* TitleBar */
+:root {
+    --mactitlebar-left-margin: 5px;
+    --mactitlebar-top-margin: 10px;
+    --mactitlebar-button-width: 20px;
+    --mactitlebar-button-height: 20px;
+    --mactitlebar-button-border-radius: 50px;
+    --mactitlebar-close-btn-back: #f25056;
+    --mactitlebar-min-btn-back: #fac536;
+    --mactitlebar-max-btn-back: #39ea49;
+    --macbuttons-serverlist-inner-top-margin: 32px;
+    /*guilds inner ul element*/
+    --macbuttons-serverlist-outer-top-margin: 0;
+    --macbuttons-serverlist-outer-height: 100%;
+}
+
+/* Bubble Chat */
+:root {
+    --chat-bubble: 1;
+
+    --chat-bubble-background-color: var(--background-secondary);
+    --chat-bubble-border-color: var(--background-secondary-alt);
+    --chat-bubble-code-background-color: var(--background-secondary-alt);
+
+    --chat-bubble-max-width: 90%;
+    --chat-bubble-border-radius: 8px;
+
+    --chat-bubble-box-shadow-h-offset: 0;
+    --chat-bubble-box-shadow-v-offset: 4px;
+    --chat-bubble-box-shadow-blur: 4px;
+
+    --chat-bubble-box-shadow-color-h: 0;
+    --chat-bubble-box-shadow-color-s: 0%;
+    --chat-bubble-box-shadow-color-l: 0%;
+    --chat-bubble-box-shadow-color-a: 0.16;
+}
+
+/* Black box imports */
+@import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
+@import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
+
+/* Right popout */
+@media (min-width: 1900px) {
+
+    .chatContent-3KubbW+ :last-child,
+    .container-2o3qEW {
+        position: fixed;
+        top: 100px;
+        bottom: 120px;
+        right: 10px;
+        width: 320px;
+        height: unset;
+    }
+
+    .tabBody-2dgbAs {
+        transform: none;
+    }
+}
+
+@media (min-width: 1366px) {
+
+    .chatContent-3KubbW+ :last-child,
+    .container-2o3qEW {
+        position: fixed;
+        top: 100px;
+        bottom: 100px;
+        right: 20px;
+        width: 270px;
+        height: unset;
+
+    }
+
+    .tabBody-2dgbAs {
+        transform: none;
+    }
+}
