@@ -16,7 +16,7 @@ Requer que você tenha a versão desktop do [**Discord**](https://discordapp.com
 
 Apôs a instalação do BetterDiscord:
 
-1. Baixe [**elfin.theme.css**](https://betterdiscord.app/Download?id=155) e vá em **Configurações > Temas** e clique em **Abrir Pasta de Temas** e coloque o arquivo em **%appdata%/BetterDiscord/themes**
+1. Baixe [**elfin.theme.css**](https://github.com/RRyanDEV/bd-theme/releases/download/v1.0.0/elfin.theme.css) e vá em **Configurações > Temas** e clique em **Abrir Pasta de Temas** e coloque o arquivo em **%appdata%/BetterDiscord/themes**
 2. Atualize o Discord usando **CTRL+R** ou reinicie o Discord.
 3. Vá em **Configurações > BetterDiscord > Temas** e habilite **ElfinTheme**.
 
